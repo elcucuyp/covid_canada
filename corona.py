@@ -109,7 +109,7 @@ def covid_allpr(nodays):
     plt.show()
 
 def main():
-    # covid()
+    covid_summary()
     province = str(input("\nWhat province would you like to see data for? (enter all to see consolidated statistics or "
                          "Canada to see Canada-only statistics): "))
 
